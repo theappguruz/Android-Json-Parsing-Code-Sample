@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <com.rey.material.widget.LinearLayout
+        android:id="@+id/inflateParentView"
+        style="@style/FlatWaveButtonRippleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <com.rey.material.widget.TextView
+
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textSize="15sp"
+            android:gravity="left"
+
+            android:textColor="@color/color_black"
+            android:textStyle="bold"
+            />
+    </com.rey.material.widget.LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_grey">
+
+    </LinearLayout>
+
+</LinearLayout>

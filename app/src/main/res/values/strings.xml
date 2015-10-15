@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JSONParsingDemoAndroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="login_title">Contacts</string>
+    <string name="btn_login">Login</string>
+    <string name="enter_username">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+
+</resources>
